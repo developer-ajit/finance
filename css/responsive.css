@@ -1,0 +1,129 @@
+@media (max-width:991px){
+    .mobilemenubaricon{
+        display: block;
+    }
+    .mobilemenubaricon {
+        top: 27px;
+        right: 35%;
+    }
+    .choosecswith {
+        width: 50%;
+        margin-top: 10px;
+    }
+    .w20 {
+        width: 33%;
+        margin-top: 25px;
+    }
+    .headertopleft {
+        display: none;
+    }
+    .image_gellery {
+        flex-flow: wrap;
+    }
+    .image_gellery a {
+        margin-top: 13px;
+    }
+    .container100width{
+        max-width: 100%;
+    }
+    .ourjourneyright {
+        margin-right: -19px;
+    }
+    .ourjourneyleft, .ourjourneyright {
+        left: -8px;
+        top: 1px;
+    }
+    .w48 {
+        width: 50%;
+    }
+    .headerright::before {
+
+        top: -13px;
+       
+    }
+}
+
+
+@media (max-width:767px){
+    .mobilemenubaricon {
+        right: 42%;
+    }
+    .w20 {
+        width: 50%;
+    }
+    .ourjourneycenter {
+        position: absolute;
+    }
+    .ourjourneyright {
+        width: 80%;
+        float: inherit;
+    }
+    .ourjourneyleft, .ourjourneyright {
+        width: 80%;
+        margin-left: 122px;
+    }
+   
+    .ourjurstyle {
+        width: 80%;
+        padding: 0px;
+        margin-top: 0px;
+       
+        float: inherit;
+    }
+    .ourjurstyle > h6 {
+        position: absolute;
+        left: 118px;
+        top: -38px;
+        width: 100%;
+    }
+    .ourjourneyleft::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -8px;
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 9px 13px 10px 0;
+        border-color: transparent #6980fe transparent transparent;
+        transform: translate(-50%, -50%);
+    }
+    .ourjourneyleft {
+        border-left: 2px solid var(--primary-color);
+        border-right: none;
+    }
+    .ourjurradi::before {
+        left: 42px;
+        transform: translate(-8px,-24px);
+      
+    }
+    .ourjurradi::after {
+        left: 54px;
+        transform: translateX(-20px);
+    }
+    .ourjourneycontent::before {
+        left: 51px;
+        top: -50px;
+    }
+    .ourjourneyitem {
+        position: relative;
+    }
+    .ourjourneyitem {
+        margin-top: 72px;
+    }
+
+    .tabgallerycontent ul li {
+     
+        width: 219px;
+   
+    }
+    .w48 {
+        width: 100%;
+    }
+}
+@media (max-width:573px){
+    .mobilemenubaricon {
+        right: 215px;
+    }
+}
